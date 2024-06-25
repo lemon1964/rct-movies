@@ -1,11 +1,15 @@
-Большое спасибо за ценную и актуальную информацию!
-Непременно ею воспользуюсь в будущем и конечно в ходе 
-реализации этих нужных и важных шагов обращусь вновь к вам за помощью.
+Поправил, был другой неверный путь
+  <Router basename="/rct-movies">
 
-Приложение api развернуто на pythonanywhere и вроде полностью работает.
+"homepage": "https://lemon1964.github.io/rct-movies",
+да верно
 
-Осталось развернуть приложение react-movies на гитхаб и связать его 
-с api на pythonanywhere.
+react-movies/src/config.js
+Заменил и закомментировал локальный вариант
+export const API_URL = 'https://lemon1964.pythonanywhere.com/api';
+// export const API_URL = 'http://127.0.0.1:8000/api';
 
-Делаю стандартные шаги.
-
+git add -A
+git commit -m "Updated Router basename and homepage"
+git push -u origin main
+npm run deploy

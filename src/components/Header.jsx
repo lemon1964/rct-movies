@@ -48,7 +48,7 @@ function Header() {
                     <li>
                         <a
                             className="grey-text text-lighten-4 right"
-                            href="https://github.com/lemon1964/django-react-movies"
+                            href="https://github.com/lemon1964/rct-movies"
                             rel="noreferrer"
                             target="_blank"
                         >

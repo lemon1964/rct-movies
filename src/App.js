@@ -11,7 +11,7 @@ import { Movie } from './components/Movie';
 function App() {
     return (
         <>
-            <Router basename='/django-react-movies'>
+            <Router basename="/rct-movies">
                 <Header />
                 <main className='container content'>
                     <Switch>
