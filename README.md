@@ -1,8 +1,9 @@
 # rct-movies
-### ***Проект на базе курса [React для современных веб-приложений](https://stepik.org/course/114197/syllabus) и DRF приложения, развернутого на  pythonanywhere***  
+### ***Проект на двух приложениях - React на базе курса [React для современных веб-приложений](https://stepik.org/course/114197/syllabus) и DRF приложения, развернутого на  [pythonanywhere](https://github.com/lemon1964/api-movies.git)***  
 
 ## Описание проекта
 Поиск фильмов по апи [OMDb API](https://www.omdbapi.com).
+DRF приожение реквестит данные из OMDb, React приложение из DRF.
 Проект тестовый для отработки связки React и DRF на деплое.
 
 ## Функционал:

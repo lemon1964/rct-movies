@@ -1,15 +1,4 @@
-Поправил, был другой неверный путь
-  <Router basename="/rct-movies">
-
-"homepage": "https://lemon1964.github.io/rct-movies",
-да верно
-
-react-movies/src/config.js
-Заменил и закомментировал локальный вариант
-export const API_URL = 'https://lemon1964.pythonanywhere.com/api';
-// export const API_URL = 'http://127.0.0.1:8000/api';
-
-git add -A
-git commit -m "Updated Router basename and homepage"
+git add .
+git commit -m "25_062324"
+git branch -M main
 git push -u origin main
-npm run deploy
